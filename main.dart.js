@@ -49687,7 +49687,7 @@ s=o.L(o.gS()).cM(0)
 o=m.a
 n=o===0
 r=!n
-if(r&&s.a!==0)q="\\left("+A.C(o,!1,!1,4)+A.am(s.a,p,p,"",!1)+"\\right)"
+if(r&&s.a!==0)q="\\left("+A.C(o,!1,!1,4)+A.am(s.a,p,p,"+",!1)+"\\right)"
 else if(r&&s.a===0)q=A.am(o,"","","",!1)
 else q=n&&s.a!==0?A.am(s.a,p,p,"",!1):""
 return q===""?"0":q},
@@ -50632,7 +50632,7 @@ c1=p.IT(d5.d.b)[0]
 c2=p.IT(d5.d.b)[1]
 c3=p.IT(d5.d.b)[2]
 c4=p.w8(d5.d.b)
-c1=A.v(B.m,A.a6(A.a3("\\begin{aligned}\\vec{a_{\\tau}} \\times \\vec{R} &= \\det \\begin{bmatrix}  \\overrightarrow{a_{\\text x}}  & \\overrightarrow{a_{\\text y}}  & \\overrightarrow{a_{\\text z}} \\\\a_{\\tau x} & a_{\\tau y} & a_{\\tau z}\\\\R_x & R_y & R_z \\end{bmatrix} \\\\=& (a_{\\tau y} \\cdot R_z - a_{\\tau z} \\cdot R_y) \\overrightarrow{a_{\\text x}} \\\\&+ (a_{\\tau x} \\cdot R_z - a_{\\tau z} \\cdot R_x) \\overrightarrow{a_{\\text y}} \\\\&+ (a_{\\tau x} \\cdot R_y - a_{\\tau y} \\cdot R_x) \\overrightarrow{a_{\\text z}} \\\\=& "+c1+"\\\\&+ "+c2+"\\\\&+ "+c3+"\\\\=& "+c4+"\\end{aligned}",B.k,new A.k(!0,d6,d6,d6,d6,d6,16,d6,d6,d6,d6,d6,d6,d6,d6,d6,d6,d6,d6,d6,d6,d6,d6,d6,d6,d6)),new A.G(2,2,2,2),B.h),B.e,d6,d6,d6,d6,d6,d6,d6)
+c1=A.v(B.m,A.a6(A.a3("\\begin{aligned}\\vec{a_{\\tau}} \\times \\vec{R} &= \\det \\begin{bmatrix}  \\overrightarrow{a_{\\text x}}  & \\overrightarrow{a_{\\text y}}  & \\overrightarrow{a_{\\text z}} \\\\a_{\\tau x} & a_{\\tau y} & a_{\\tau z}\\\\R_x & R_y & R_z \\end{bmatrix} \\\\=& (a_{\\tau y} \\cdot R_z - a_{\\tau z} \\cdot R_y) \\overrightarrow{a_{\\text x}} \\\\&+ (a_{\\tau z} \\cdot R_x - a_{\\tau x} \\cdot R_z) \\overrightarrow{a_{\\text y}} \\\\&+ (a_{\\tau x} \\cdot R_y - a_{\\tau y} \\cdot R_x) \\overrightarrow{a_{\\text z}} \\\\=& "+c1+"\\\\&+ "+c2+"\\\\&+ "+c3+"\\\\=& "+c4+"\\end{aligned}",B.k,new A.k(!0,d6,d6,d6,d6,d6,16,d6,d6,d6,d6,d6,d6,d6,d6,d6,d6,d6,d6,d6,d6,d6,d6,d6,d6,d6)),new A.G(2,2,2,2),B.h),B.e,d6,d6,d6,d6,d6,d6,d6)
 c2=A.v(B.o,A.V(e8,d6,d6,d6,!0,new A.k(!0,d6,d6,d6,d6,d6,16,d6,d6,d6,d6,d6,d6,d6,d6,d6,d6,d6,d6,d6,d6,d6,d6,d6,d6,d6),B.y,d6),B.e,d6,d6,d6,d6,d6,d6,d6)
 b=A.C(b,!1,!1,4)
 c3=p.w8(d5.d.b)
