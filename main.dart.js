@@ -49659,28 +49659,28 @@ if(s){k=j.A(0,k)
 k=k.L(k.gS())
 j=q.length===0?"":p
 q=q+A.ai(k.c,o,o,j,!1)+l}}}return q.length===0?q+"\\vec{0}":q},
-ey(a){var s,r,q,p="\\ell ",o="\\overrightarrow{a_{\\text x}} ",n="+",m="\\overrightarrow{a_{\\text y}} ",l="\\overrightarrow{a_{\\text z}} ",k=this.b,j=this.c,i=a.A(0,k.G(0,j).L(2))
+ey(a){var s,r,q,p="+",o="\\ell ",n="\\overrightarrow{a_{\\text x}} ",m="\\overrightarrow{a_{\\text y}} ",l="\\overrightarrow{a_{\\text z}} ",k=this.b,j=this.c,i=a.A(0,k.G(0,j).L(2))
 k=j.A(0,k)
 s=k.L(k.gS()).cM(0)
 k=i.a
 j=k===0
 r=!j
-if(r&&s.a!==0)q="\\left("+A.C(k,!1,!1,4)+A.ai(s.a,p,p,"",!1)+"\\right)\\overrightarrow{a_{\\text x}} "
-else if(r&&s.a===0)q=A.ai(k,"","","",!1)+o
-else q=j&&s.a!==0?A.ai(s.a,p,p,"",!1)+o:""
+if(r&&s.a!==0)q="\\left("+A.C(k,!1,!1,4)+A.ai(s.a,o,o,p,!1)+"\\right)\\overrightarrow{a_{\\text x}} "
+else if(r&&s.a===0)q=A.ai(k,"","","",!1)+n
+else q=j&&s.a!==0?A.ai(s.a,o,o,"",!1)+n:""
 k=i.b
 j=k===0
 r=!j
 if(r&&s.b!==0){if(q.length!==0)q+="+"
-q=q+"\\left("+A.C(k,!1,!1,4)+A.ai(s.b,p,p,n,!1)+"\\right)\\overrightarrow{a_{\\text y}} "}else if(r&&s.b===0)q=q+A.ai(k,"","",q.length!==0?n:"",!1)+m
-else if(j&&s.b!==0){k=q.length!==0?n:""
-q=q+A.ai(s.b,p,p,k,!1)+m}k=i.c
+q=q+"\\left("+A.C(k,!1,!1,4)+A.ai(s.b,o,o,p,!1)+"\\right)\\overrightarrow{a_{\\text y}} "}else if(r&&s.b===0)q=q+A.ai(k,"","",q.length!==0?p:"",!1)+m
+else if(j&&s.b!==0){k=q.length!==0?p:""
+q=q+A.ai(s.b,o,o,k,!1)+m}k=i.c
 j=k===0
 r=!j
 if(r&&s.c!==0){if(q.length!==0)q+="+"
-q=q+"\\left("+A.C(k,!1,!1,4)+A.ai(s.c,p,p,n,!1)+"\\right)\\overrightarrow{a_{\\text z}} "}else if(r&&s.c===0)q=q+A.ai(k,"","",q.length!==0?n:"",!1)+l
-else if(j&&s.c!==0){k=q.length!==0?n:""
-q=q+A.ai(s.c,p,p,k,!1)+l}return q},
+q=q+"\\left("+A.C(k,!1,!1,4)+A.ai(s.c,o,o,p,!1)+"\\right)\\overrightarrow{a_{\\text z}} "}else if(r&&s.c===0)q=q+A.ai(k,"","",q.length!==0?p:"",!1)+l
+else if(j&&s.c!==0){k=q.length!==0?p:""
+q=q+A.ai(s.c,o,o,k,!1)+l}return q},
 WE(a,b,c){var s,r,q,p="\\ell ",o=this.b,n=this.c,m=a.A(0,o.G(0,n).L(2))
 o=n.A(0,o)
 s=o.L(o.gS()).cM(0)
