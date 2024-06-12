@@ -48439,7 +48439,7 @@ r=m.ghq()
 q=Math.sqrt(k)
 l=1/q
 p=s/2/k
-return(l*Math.log(q*(n.u(0,o).gJ()/2+p+Math.sqrt(k*n.u(0,o).gJ()*n.u(0,o).gJ()/4+s*n.u(0,o).gJ()/2+r)))-l*Math.log(q*(-n.u(0,o).gJ()/2+p+Math.sqrt(k*n.u(0,o).gJ()*n.u(0,o).gJ()/4-s*n.u(0,o).gJ()/2+r))))*this.guo()/n.u(0,o).gJ()/11126500554478704e-26},
+return(l*Math.log(q*(n.u(0,o).gJ()/2+p)+Math.sqrt(k*n.u(0,o).gJ()*n.u(0,o).gJ()/4+s*n.u(0,o).gJ()/2+r))-l*Math.log(q*(-n.u(0,o).gJ()/2+p)+Math.sqrt(k*n.u(0,o).gJ()*n.u(0,o).gJ()/4-s*n.u(0,o).gJ()/2+r)))*this.guo()/n.u(0,o).gJ()/11126500554478704e-26},
 $izn:1}
 A.o3.prototype={
 gv(a){return 6.283185307179586*this.c},
@@ -49515,7 +49515,7 @@ d=A.C(p.ob(c8.d.b),!1,!1,4)
 s=A.a([h,new A.iO(B.m,c9,c9,new A.hj(new A.mj(g,i9,c9),c9,new A.K(200,200),c9,c9),c9),f,e,a,a0,a1,a2,a3,a4,s,r,q,m,l,k,j,i,a5,a6,a7,a8,a9,b0,b1,b2,A.v(B.m,A.a6(A.a3("\\begin{aligned}V  &= \\int_{-\\frac{L_{AB} }{2}}^{\\frac{L_{AB} }{2}} \\frac{\\rho_{\\ell} }{4 \\pi \\varepsilon R } \\mathrm{d} \\ell \\\\&= \\int_{-\\frac{"+b3+"}{2}}^{\\frac{"+b+"}{2}} \\frac{ "+c2+i1+c+" } \\mathrm{d} \\ell \\\\&= "+d+i2,B.k,new A.k(!0,c9,c9,c9,c9,c9,16,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9)),new A.G(2,2,2,2),B.h),B.e,c9,c9,c9,c9,c9,c9,c9)],i4)
 B.b.D(s,c0)
 s.push(A.v(B.o,A.V(f8,c9,c9,c9,!0,new A.k(!0,c9,c9,c9,c9,c9,16,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9),B.y,c9),B.e,c9,c9,c9,c9,c9,c9,c9))
-s.push(A.v(B.m,A.a6(A.a3("\\int \\frac{d\\ell}{(a\\ell^2+b\\ell+c)^\\frac{1}{2} } =\\frac{1}{\\sqrt{a} } \\ln \\left[{\\sqrt{a}(\\ell+\\frac{b}{2a}+(a\\ell^2+b\\ell+c)^\\frac{1}{2}  )}\\right] ",B.k,new A.k(!0,c9,c9,c9,c9,c9,16,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9)),new A.G(2,2,2,2),B.h),B.e,c9,c9,c9,c9,c9,c9,c9))
+s.push(A.v(B.m,A.a6(A.a3("\\int \\frac{d\\ell}{(a\\ell^2+b\\ell+c)^\\frac{1}{2} } =\\frac{1}{\\sqrt{a} } \\ln \\left[{\\sqrt{a}(\\ell+\\frac{b}{2a})+(a\\ell^2+b\\ell+c)^\\frac{1}{2}}\\right] ",B.k,new A.k(!0,c9,c9,c9,c9,c9,16,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9,c9)),new A.G(2,2,2,2),B.h),B.e,c9,c9,c9,c9,c9,c9,c9))
 B.b.D(o,s)
 i3.push([A.iA(i8,"The electric field potential due to line charge",b9,"V  = "+A.C(p.ob(c8.d.b),!1,!1,4)+" \\:\\text{  V}",""),o])
 continue}if(B.j_===c7){i5.a(p)
